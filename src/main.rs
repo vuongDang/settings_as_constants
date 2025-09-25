@@ -1,8 +1,14 @@
 fn main() {
     let foo = env!("TEMP_FOO");
     let bar = env!("TEMP_BAR");
-    println!("foo: {foo}");
-    println!("bar: {bar}");
+    // println!("foo: {foo}");
+    // println!("bar: {bar}");
+
+    if true {
+        print!("Witness true")
+    } else {
+        print!("Witness false")
+    }
 
     if foo == "true" {
         println!("I should be print this");
